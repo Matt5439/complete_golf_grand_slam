@@ -34,5 +34,15 @@ const result = JavaScriptObfuscator.obfuscate(originalJS, {
 const obfuscatedJS = result.getObfuscatedCode();
 const output = src.replace(match[0], () => '<script>' + obfuscatedJS + '</script>');
 
+// Safety check: every script block in the output must parse, or we refuse to write
+const blocks = [...output.matchAll(/<script>([\s\S]*?)<\/script>/g)];
+for (const b of blocks) {
+  try { new Function(b[1]); }
+  catch (e) {
+    console.error('BUILD ABORTED — output script block has a syntax error:', e.message);
+    process.exit(1);
+  }
+}
+
 fs.writeFileSync('index.html', output);
-console.log('index.html built and obfuscated successfully');
+console.log('index.html built and obfuscated successfully (' + blocks.length + ' script blocks verified)');
