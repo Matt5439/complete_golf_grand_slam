@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <rect width="1200" height="630" fill="#0d1a10"/>
+  <rect width="1200" height="630" fill="#111214" opacity="0.6"/>
+  <rect x="2" y="2" width="1196" height="626" rx="8" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.2"/>
+
+  <rect x="70" y="175" width="248" height="248" rx="28" fill="#1a2e1a" opacity="0.7"/>
+  <rect x="352" y="175" width="248" height="248" rx="28" fill="#1a2e1a" opacity="0.7"/>
+  <rect x="634" y="175" width="248" height="248" rx="28" fill="#1a2e1a" opacity="0.7"/>
+  <rect x="882" y="175" width="248" height="248" rx="28" fill="#1a2e1a" opacity="0.7"/>
+
+  <text x="194" y="345" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="128" opacity="0.22">🏆</text>
+  <text x="476" y="345" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="128" opacity="0.22">🏆</text>
+  <text x="758" y="345" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="128" opacity="0.22">🏆</text>
+  <text x="1006" y="345" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="128" opacity="0.22">🏆</text>
+
+  <text x="194" y="408" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="20" font-weight="700" fill="#3a6040" letter-spacing="1">MASTERS</text>
+  <text x="476" y="408" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="20" font-weight="700" fill="#3a6040" letter-spacing="1">US OPEN</text>
+  <text x="758" y="408" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="20" font-weight="700" fill="#3a6040" letter-spacing="1">THE OPEN</text>
+  <text x="1006" y="408" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="20" font-weight="700" fill="#3a6040" letter-spacing="1">PGA CHAMP.</text>
+
+  <text x="600" y="108" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="24" font-weight="700" fill="#22c55e" letter-spacing="3">⛳  CAREER GRAND SLAM</text>
+
+  <text x="600" y="510" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="34" font-weight="800" fill="#f0f4f0">Can you do what only a handful of legends have?</text>
+  <text x="600" y="558" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="26" font-weight="600" fill="#6b8a6e">Win all 4 majors in one season.</text>
+
+  <text x="600" y="610" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,sans-serif" font-size="18" fill="#3a5040" letter-spacing="1">careergrandslam.com</text>
+</svg>
