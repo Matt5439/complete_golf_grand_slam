@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1418"/>
+      <stop offset="0.65" stop-color="#10231a"/>
+      <stop offset="1" stop-color="#143020"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a7340"/>
+      <stop offset="1" stop-color="#5c4d2c"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="200" fill="url(#sky)"/>
+  <path d="M0,160 Q240,146 480,156 T720,150 V200 H0 Z" fill="#0e2417"/>
+  <!-- bunker between ball and green -->
+  <ellipse cx="330" cy="168" rx="92" ry="20" fill="url(#sand)"/>
+  <ellipse cx="330" cy="164" rx="92" ry="18" fill="#a08550"/>
+  <path d="M260,160 Q300,172 330,170 Q372,168 400,158" fill="none" stroke="#5c4d2c" stroke-width="1.5" opacity="0.6"/>
+  <!-- green with flag, tight pin -->
+  <ellipse cx="548" cy="158" rx="92" ry="16" fill="#1d4029"/>
+  <ellipse cx="548" cy="158" rx="92" ry="16" fill="none" stroke="#22c55e" stroke-width="1.5" opacity="0.4"/>
+  <g>
+    <rect x="524" y="106" width="3" height="50" fill="#e5e7eb" rx="1.5"/>
+    <path d="M527,108 L554,115 L527,123 Z" fill="#ef4444"/>
+    <ellipse cx="526" cy="157" rx="6" ry="2.2" fill="#06120a"/>
+  </g>
+  <!-- delicate chip: short steep hop over the sand -->
+  <path d="M186,150 Q330,58 502,144" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 11" opacity="0.95"/>
+  <circle cx="502" cy="144" r="4.5" fill="#f0f4f0"/>
+  <!-- bounce-and-check: two little hops to the pin -->
+  <path d="M502,150 Q509,142 515,150" fill="none" stroke="#4ade80" stroke-width="1.8" opacity="0.7"/>
+  <path d="M515,151 Q519,147 522,152" fill="none" stroke="#4ade80" stroke-width="1.5" opacity="0.5"/>
+  <!-- crouched chipper -->
+  <g fill="#06120a">
+    <circle cx="172" cy="112" r="8"/>
+    <path d="M170,119 C166,132 167,140 168,148 L164,162 L171,162 L174,148 L178,162 L185,162 L180,144 C180,136 180,128 177,119 Z"/>
+    <path d="M172,122 L190,146 L186,150 L168,126 Z"/>
+    <ellipse cx="190" cy="148" rx="5" ry="3" transform="rotate(40 190 148)"/>
+  </g>
+  <ellipse cx="176" cy="164" rx="26" ry="4" fill="#000" opacity="0.3"/>
+</svg>

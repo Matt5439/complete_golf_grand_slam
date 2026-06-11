@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1418"/>
+      <stop offset="0.65" stop-color="#10231a"/>
+      <stop offset="1" stop-color="#143020"/>
+    </linearGradient>
+    <radialGradient id="greenGlow" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="200" fill="url(#sky)"/>
+  <path d="M0,164 Q200,148 420,158 T720,150 V200 H0 Z" fill="#0e2417"/>
+  <!-- elevated green complex -->
+  <ellipse cx="540" cy="152" rx="130" ry="26" fill="url(#greenGlow)"/>
+  <ellipse cx="540" cy="152" rx="96" ry="18" fill="#1d4029"/>
+  <ellipse cx="540" cy="152" rx="96" ry="18" fill="none" stroke="#22c55e" stroke-width="1.5" opacity="0.4"/>
+  <!-- flag on green -->
+  <g>
+    <rect x="566" y="98" width="3" height="52" fill="#e5e7eb" rx="1.5"/>
+    <path d="M569,100 L598,108 L569,117 Z" fill="#ef4444"/>
+    <ellipse cx="568" cy="151" rx="6" ry="2.2" fill="#06120a"/>
+  </g>
+  <!-- towering iron shot: high arc dropping onto the green -->
+  <path d="M84,156 Q300,-18 520,138" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 12" opacity="0.95"/>
+  <circle cx="520" cy="138" r="5" fill="#f0f4f0"/>
+  <!-- landing ripple -->
+  <ellipse cx="520" cy="146" rx="14" ry="4" fill="none" stroke="#4ade80" stroke-width="1.5" opacity="0.6"/>
+  <ellipse cx="520" cy="146" rx="24" ry="7" fill="none" stroke="#4ade80" stroke-width="1" opacity="0.3"/>
+  <!-- divot + origin -->
+  <g fill="#06120a">
+    <circle cx="78" cy="118" r="8"/>
+    <path d="M76,125 C72,138 73,146 74,154 L70,168 L77,168 L80,154 L84,168 L91,168 L86,150 C86,140 86,132 82,125 Z"/>
+    <path d="M77,128 L46,100 L50,95 L81,124 Z"/>
+  </g>
+  <path d="M88,158 L104,154" stroke="#4ade80" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+</svg>

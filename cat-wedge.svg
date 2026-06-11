@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1418"/>
+      <stop offset="0.65" stop-color="#10231a"/>
+      <stop offset="1" stop-color="#143020"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="200" fill="url(#sky)"/>
+  <path d="M0,162 Q240,150 480,158 T720,152 V200 H0 Z" fill="#0e2417"/>
+  <!-- green close by -->
+  <ellipse cx="520" cy="160" rx="100" ry="17" fill="#1d4029"/>
+  <ellipse cx="520" cy="160" rx="100" ry="17" fill="none" stroke="#22c55e" stroke-width="1.5" opacity="0.4"/>
+  <g>
+    <rect x="540" y="104" width="3" height="54" fill="#e5e7eb" rx="1.5"/>
+    <path d="M543,106 L571,113 L543,121 Z" fill="#ef4444"/>
+    <ellipse cx="542" cy="159" rx="6" ry="2.2" fill="#06120a"/>
+  </g>
+  <!-- the lob: near-vertical launch, steep drop, dead stop -->
+  <path d="M226,152 Q280,-30 528,142" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 12" opacity="0.95"/>
+  <circle cx="528" cy="142" r="4.5" fill="#f0f4f0"/>
+  <!-- backspin: ball bites and zips back -->
+  <path d="M534,148 Q540,154 534,158 Q528,161 524,157" fill="none" stroke="#4ade80" stroke-width="1.8" opacity="0.7"/>
+  <path d="M526,155 L523,157 L526,160" fill="none" stroke="#4ade80" stroke-width="1.8" stroke-linecap="round" opacity="0.7"/>
+  <!-- spin glyphs along the flight -->
+  <g fill="none" stroke="#4ade80" stroke-width="1.4" opacity="0.5">
+    <circle cx="300" cy="46" r="7" stroke-dasharray="8 4"/>
+    <circle cx="396" cy="58" r="6" stroke-dasharray="7 4"/>
+  </g>
+  <!-- wedge player: open-faced flop stance -->
+  <g fill="#06120a">
+    <circle cx="212" cy="108" r="8"/>
+    <path d="M210,115 C206,128 207,138 208,146 L204,162 L211,162 L214,146 L218,162 L225,162 L220,142 C220,134 220,124 217,115 Z"/>
+    <path d="M212,118 L236,98 L240,103 L216,123 Z"/>
+    <ellipse cx="240" cy="98" rx="6" ry="3.5" transform="rotate(-58 240 98)"/>
+  </g>
+  <ellipse cx="216" cy="164" rx="26" ry="4" fill="#000" opacity="0.3"/>
+  <!-- grass tufts: scoring zone -->
+  <g stroke="#22c55e" stroke-width="1.5" stroke-linecap="round" opacity="0.4">
+    <path d="M256,158 L254,150"/><path d="M260,158 L260,149"/><path d="M264,158 L266,151"/>
+    <path d="M330,164 L328,156"/><path d="M334,164 L334,155"/><path d="M338,164 L340,157"/>
+  </g>
+</svg>

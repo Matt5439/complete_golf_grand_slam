@@ -1,0 +1,21 @@
+id,name,major,color,majorKey,power,accuracy,approach,shortgame,putting,wedge,creativity,management,desc
+1,Augusta National,Masters,badge-masters,masters,0.03,0.01,0.26,0.12,0.30,0.08,0.16,0.04,Lightning greens and treacherous pins — putting and iron precision rule.
+2,Pebble Beach,US Open,badge-usopen,usopen,0.02,0.28,0.22,0.10,0.12,0.06,0.02,0.18,Tiny greens on the cliff edge — accuracy and smart plotting win here.
+3,Whistling Straits,PGA Championship,badge-pga,pga,0.30,0.10,0.20,0.06,0.12,0.04,0.14,0.04,A bomber's paradise — raw length and bold shotmaking in the lake wind.
+4,St Andrews,The Open,badge-open,open,0.02,0.10,0.12,0.06,0.16,0.04,0.28,0.22,The Old Course rewards imagination and cunning over brute force.
+5,Carnoustie,The Open,badge-open,open,0.02,0.30,0.18,0.06,0.08,0.04,0.12,0.20,The hardest links in golf — keep it straight or pay dearly.
+6,Royal Troon,The Open,badge-open,open,0.02,0.22,0.10,0.12,0.08,0.26,0.18,0.02,The Postage Stamp demands deadly wedges and links invention.
+7,Muirfield,The Open,badge-open,open,0.02,0.26,0.24,0.08,0.10,0.02,0.10,0.18,The purest examination — fairways hit and plans executed.
+8,Oakmont,US Open,badge-usopen,usopen,0.02,0.24,0.18,0.06,0.32,0.04,0.02,0.12,The fastest greens on earth — putting survival above all.
+9,Shinnecock Hills,US Open,badge-usopen,usopen,0.02,0.26,0.18,0.06,0.14,0.20,0.02,0.12,Wind-exposed greens — precise wedges and fairways found.
+10,Bethpage Black,US Open,badge-usopen,usopen,0.32,0.14,0.22,0.08,0.12,0.06,0.02,0.04,A brute of a public course — length is non-negotiable.
+11,Congressional,US Open,badge-usopen,usopen,0.26,0.16,0.26,0.04,0.14,0.04,0.02,0.08,Long and soft — a pure ball-striking examination.
+12,Southern Hills,PGA Championship,badge-pga,pga,0.04,0.12,0.28,0.06,0.16,0.22,0.02,0.10,Run-off greens punish approach misses — wedge game essential.
+13,Valhalla,PGA Championship,badge-pga,pga,0.28,0.06,0.18,0.10,0.22,0.08,0.06,0.02,Big hitting and hot putting — a birdie shootout in Kentucky.
+14,Baltusrol,PGA Championship,badge-pga,pga,0.20,0.16,0.30,0.08,0.14,0.06,0.02,0.04,Long and flat — relentless iron precision decides it.
+15,Kiawah Island,PGA Championship,badge-pga,pga,0.22,0.18,0.14,0.06,0.02,0.04,0.24,0.10,The Ocean Course — power and imagination in the Atlantic wind.
+16,Augusta National (Amen Corner),Masters,badge-masters,masters,0.02,0.02,0.30,0.08,0.24,0.12,0.18,0.04,Amen Corner awaits — towering irons and slick putts.
+17,Royal Birkdale,The Open,badge-open,open,0.02,0.24,0.10,0.22,0.08,0.02,0.14,0.18,Fairway valleys and dune rough — scrappy short game survives.
+18,Royal St George's,The Open,badge-open,open,0.02,0.20,0.10,0.14,0.08,0.02,0.26,0.18,Blind shots and wicked bounces — invention beats the yardage book.
+19,Merion,US Open,badge-usopen,usopen,0.02,0.30,0.12,0.04,0.08,0.24,0.02,0.18,Compact and clever — wedges and plotting beat power.
+20,Winged Foot,US Open,badge-usopen,usopen,0.02,0.24,0.20,0.08,0.26,0.04,0.02,0.14,Torture-test greens — putting nerve and flawless management.

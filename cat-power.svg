@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1418"/>
+      <stop offset="0.65" stop-color="#10231a"/>
+      <stop offset="1" stop-color="#143020"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.78" cy="0.42" r="0.32">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1d4029"/>
+      <stop offset="1" stop-color="#0e2417"/>
+    </linearGradient>
+  </defs>
+  <rect width="720" height="200" fill="url(#sky)"/>
+  <rect width="720" height="200" fill="url(#sun)"/>
+  <circle cx="562" cy="84" r="26" fill="#fbbf24" opacity="0.85"/>
+  <path d="M0,158 Q180,138 380,150 T720,142 V200 H0 Z" fill="url(#ground)"/>
+  <path d="M0,170 Q240,156 480,166 T720,160 V200 H0 Z" fill="#0c2014" opacity="0.9"/>
+  <!-- power trajectory: long flat rising blast -->
+  <path d="M118,150 Q340,38 668,76" fill="none" stroke="#22c55e" stroke-width="3" stroke-linecap="round" stroke-dasharray="1 12" opacity="0.95"/>
+  <circle cx="668" cy="76" r="5" fill="#f0f4f0"/>
+  <circle cx="668" cy="76" r="10" fill="none" stroke="#22c55e" stroke-width="1.5" opacity="0.5"/>
+  <!-- golfer silhouette mid-drive -->
+  <g fill="#06120a">
+    <circle cx="106" cy="92" r="9"/>
+    <path d="M104,100 C98,116 100,128 102,140 L96,158 L104,158 L108,140 L112,158 L120,158 L114,136 C114,124 114,112 110,100 Z"/>
+    <path d="M105,104 L66,66 L70,61 L109,99 Z"/>
+    <ellipse cx="64" cy="62" rx="6" ry="4" transform="rotate(-40 64 62)"/>
+  </g>
+  <!-- speed lines -->
+  <g stroke="#4ade80" stroke-width="2" stroke-linecap="round" opacity="0.5">
+    <path d="M58,108 L88,104"/>
+    <path d="M50,122 L84,118"/>
+    <path d="M60,136 L90,132"/>
+  </g>
+  <ellipse cx="110" cy="160" rx="34" ry="5" fill="#000" opacity="0.3"/>
+</svg>

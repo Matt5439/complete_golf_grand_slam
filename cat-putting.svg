@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 200" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1418"/>
+      <stop offset="0.6" stop-color="#10231a"/>
+      <stop offset="1" stop-color="#143020"/>
+    </linearGradient>
+    <linearGradient id="greenSurf" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f4a2e"/>
+      <stop offset="1" stop-color="#11301d"/>
+    </linearGradient>
+    <radialGradient id="cupGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#4ade80" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#4ade80" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="720" height="200" fill="url(#sky)"/>
+  <!-- the green fills the lower half: pure putting surface -->
+  <path d="M0,118 Q360,92 720,118 V200 H0 Z" fill="url(#greenSurf)"/>
+  <!-- mow lines -->
+  <g stroke="#22c55e" stroke-width="1" opacity="0.12">
+    <path d="M0,136 Q360,112 720,136"/>
+    <path d="M0,154 Q360,132 720,154"/>
+    <path d="M0,172 Q360,152 720,172"/>
+    <path d="M0,190 Q360,172 720,190"/>
+  </g>
+  <!-- cup with flag laid nearby -->
+  <ellipse cx="560" cy="150" rx="40" ry="14" fill="url(#cupGlow)"/>
+  <ellipse cx="560" cy="150" rx="9" ry="3.5" fill="#06120a"/>
+  <ellipse cx="560" cy="149" rx="9" ry="3.5" fill="none" stroke="#4ade80" stroke-width="1.2" opacity="0.8"/>
+  <!-- breaking putt: snaking line reading the slope -->
+  <path d="M118,168 C260,178 350,128 444,140 C500,147 528,152 549,151" fill="none" stroke="#f0f4f0" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="2 9" opacity="0.9"/>
+  <circle cx="118" cy="168" r="5" fill="#f0f4f0"/>
+  <!-- slope-read arrows -->
+  <g stroke="#4ade80" stroke-width="1.8" fill="none" opacity="0.55" stroke-linecap="round">
+    <path d="M300,118 Q316,122 330,118"/>
+    <path d="M326,116 L330,118 L327,121"/>
+    <path d="M380,108 Q396,112 410,108"/>
+    <path d="M406,106 L410,108 L407,111"/>
+  </g>
+  <!-- putter head behind the ball -->
+  <g fill="#06120a">
+    <rect x="92" y="158" width="20" height="7" rx="2.5" transform="rotate(-8 102 161)"/>
+    <path d="M108,158 L122,108 L126,109 L113,159 Z"/>
+  </g>
+</svg>
