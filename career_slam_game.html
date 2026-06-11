@@ -21,6 +21,8 @@
 <meta name="twitter:title" content="Career Grand Slam">
 <meta name="twitter:description" content="Can you do what only a handful of legends have? Win all 4 majors in one season.">
 <meta name="twitter:image" content="https://careergrandslam.com/og-image.svg">
+<script async src="https://plausible.io/js/pa-M04E7UoWZlQP6JEUX9fGU.js"></script>
+<script>window.plausible=window.plausible||function(){(plausible.q=plausible.q||[]).push(arguments)},plausible.init=plausible.init||function(i){plausible.o=i||{}};plausible.init()</script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: #111214; }
@@ -937,6 +939,7 @@ function showScreen(id) {
 
 function startGame(mode) {
   gameState = {mode,season:{masters:null,pga:null,usopen:null,open:null},draftStep:0,draftPicks:{},playerGolfer:null,tournamentResults:[],currentTournamentIdx:0};
+  plausible('Season Started', {props:{mode}});
   spinSeason();
   showScreen('screen-season');
 }
@@ -1909,7 +1912,11 @@ function showSeasonResults() {
   document.getElementById('results-content').innerHTML = content;
   showScreen('screen-results');
   logSeasonResult(wins, slamAchieved, goat, earnings);
-  if(slamAchieved) playSlamCelebration();
+  plausible('Season Completed', {props:{wins: String(wins), slam: String(slamAchieved)}});
+  if(slamAchieved) {
+    plausible('Slam Achieved');
+    playSlamCelebration();
+  }
 }
 
 function logSeasonResult(wins, slamAchieved, goat, earnings) {
@@ -1980,6 +1987,7 @@ function getShareGrid() {
 }
 
 function showShareCard() {
+  plausible('Share Clicked');
   const wins = gameState.tournamentResults.filter(r=>r.position===1).length;
   const goat = Math.round(60 + wins*10 + gameState.tournamentResults.reduce((a,r)=>{
     if(r.position===1) return a+8;
