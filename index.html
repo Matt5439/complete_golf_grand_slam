@@ -2010,7 +2010,7 @@ function copyShareText() {
     return `${resultEmoji(r.position)} ${names[key]} — ${r.position===1?'WON':formatPosition(r.position)}`;
   }).filter(Boolean);
   const headline = wins===4 ? '👑 THE CAREER GRAND SLAM 👑' : `${wins}/4 majors`;
-  const text = `⛳ CAREER GRAND SLAM\n${getShareGrid()} ${headline} — GOAT ${goat}\n\n${majorLines.join('\n')}\n\nPlay at CareerSlam.golf`;
+  const text = `⛳ CAREER GRAND SLAM\n${getShareGrid()} ${headline} — GOAT ${goat}\n\n${majorLines.join('\n')}\n\nPlay at careergrandslam.com`;
   navigator.clipboard?.writeText(text);
 }
 
