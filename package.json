@@ -1,0 +1,16 @@
+{
+  "name": "golf-grand-slam",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "javascript-obfuscator": "^5.4.3"
+  }
+}
