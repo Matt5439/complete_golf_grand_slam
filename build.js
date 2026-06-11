@@ -32,7 +32,7 @@ const result = JavaScriptObfuscator.obfuscate(originalJS, {
 });
 
 const obfuscatedJS = result.getObfuscatedCode();
-const output = src.replace(match[0], '<script>' + obfuscatedJS + '</script>');
+const output = src.replace(match[0], () => '<script>' + obfuscatedJS + '</script>');
 
 fs.writeFileSync('index.html', output);
 console.log('index.html built and obfuscated successfully');
